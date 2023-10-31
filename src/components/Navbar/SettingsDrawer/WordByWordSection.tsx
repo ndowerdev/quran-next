@@ -188,7 +188,7 @@ const WordByWordSection = () => {
             id="wbw-transliteration"
             name="wbw-transliteration"
             label={t('transliteration')}
-            onChange={(isChecked) => onContentTypeChange(true, isChecked)}
+            onChange={(isChecked) => onContentTypeChange(false, isChecked)}
           />
           <Checkbox
             checked={wordClickFunctionality === WordClickFunctionality.PlayAudio}
