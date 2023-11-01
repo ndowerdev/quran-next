@@ -65,7 +65,7 @@ const READING_PREFERENCES_INITIAL_STATE: ReadingPreferences = {
   readingPreference: ReadingPreference.Translation,
   selectedWordByWordLocale: DEFAULT_WBW_LOCALE,
   isUsingDefaultWordByWordLocale: true,
-  wordByWordContentType: [WordByWordType.Translation],
+  wordByWordContentType: [WordByWordType.Transliteration],
   wordByWordDisplay: [WordByWordDisplay.TOOLTIP],
   wordClickFunctionality: WordClickFunctionality.PlayAudio,
 };

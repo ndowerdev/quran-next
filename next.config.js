@@ -160,6 +160,6 @@ const config = {
 };
 
 module.exports = withPlugins(
-  [withBundleAnalyzer, withPWA, withFonts, nextTranslate, withSentryConfig],
+  [withBundleAnalyzer, withPWA, withFonts, nextTranslate],
   config,
 );
